@@ -44,22 +44,31 @@ O projeto foi desenvolvido com foco em uso interno, simplicidade e eficiência o
 ## Para vc usar
 Nesse codigo a "const data" vai estar assim: 
 <img width="1033" height="74" alt="Captura de tela 2026-02-10 123642" src="https://github.com/user-attachments/assets/1d8fdfdc-a008-4d10-a4fb-754baa8e9a59" />
+
+
+
 O que vai fazer aparecer assim no site: 
+.
 
 <img width="375" height="135" alt="Captura de tela 2026-02-10 123906" src="https://github.com/user-attachments/assets/fae0b58a-39a9-44ca-8a20-416d71db7f0c" />
+.
 
 <img width="1209" height="186" alt="Captura de tela 2026-02-10 123916" src="https://github.com/user-attachments/assets/1f4375cd-9abd-4e8d-bcd3-a3dd947e10f1" />
+
+---
 
 O cerreto é vc adicionar uma linha para cada loja que vc queira mostrar. Assim:
 
 <img width="1679" height="413" alt="Captura de tela 2026-02-10 125749" src="https://github.com/user-attachments/assets/e9916c82-ae2e-4304-872c-8853f8b272ca" />
+OBS: Informações ocultadas por conta de privacidade
 
 
+---
+
+## Como Usar?
 
 
-
-
-
+https://github.com/user-attachments/assets/1b8d2d1e-0d2f-4023-86b8-1d6dd0f6bbc0
 
 ---
 
