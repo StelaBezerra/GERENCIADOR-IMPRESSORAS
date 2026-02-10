@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Relação de Impressoras e Toner - PI</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <div class="brand__logo">IMP</div>
+        <div class="brand__text">
+          <h1>Relação de Impressoras</h1>
+          <p>Selecione Loja</p>
+        </div>
+      </div>
+
+      <div class="controls card">
+        <div class="controls__row">
+          <div class="field">
+            <label for="fLoja">Loja (1º)</label>
+            <select id="fLoja">
+              <option value="">Selecione a loja</option>
+            </select>
+          </div>
+
+
+          <div class="field">
+            <label for="fMarca">Marca</label>
+            <select id="fMarca" disabled>
+              <option value="">Todas</option>
+            </select>
+          </div>
+
+          <div class="field field--grow">
+            <label for="q">Buscar </label>
+            <input id="q" placeholder="Modelo, toner, IP, série..." disabled />
+          </div>
+        </div>
+
+        <div class="controls__actions">
+          <button id="btnCsv" class="btn btn--soft" disabled>Exportar XLSX</button>
+          <button id="btnPrint" class="btn btn--primary" disabled>Imprimir</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="summary">
+      <div class="summary__left">
+        <div class="pill">
+          <span class="pill__dot"></span>
+          <span id="count">Selecione uma loja para começar</span>
+        </div>
+        <span class="hint">Clique no título da coluna para ordenar.</span>
+      </div>
+
+      <div class="summary__right">
+        <button id="btnTogglePwd" class="btn btn--ghost" title="Mostrar/ocultar senhas" disabled>
+          DADOS
+        </button>
+      </div>
+    </section>
+
+    <section class="card tableCard">
+      <div class="tableWrap">
+        <table id="tbl">
+          <thead>
+            <tr>
+              <th data-k="modelo">Mod. Impressora <span class="sort"></span></th>
+              <th data-k="toner">Toner <span class="sort"></span></th>
+              <th data-k="loja">Loja <span class="sort"></span></th>
+              <th data-k="setor">Setor <span class="sort"></span></th>
+              <th data-k="serie">Nº série <span class="sort"></span></th>
+              <th data-k="ip">IP <span class="sort"></span></th>
+              <th data-k="status">Status <span class="sort"></span></th>
+              <th data-k="senha">Senha <span class="sort"></span></th>
+              <th data-k="marca">Marca <span class="sort"></span></th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+
+    </section>
+  </main>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<script src="./script.js" defer></script>
+</body>
+</html>
+
+
+</body>
+</html>
+
+</body>
+</html>
